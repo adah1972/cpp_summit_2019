@@ -10,13 +10,13 @@ typedef boost::coroutines2::coroutine<const uint64_t> coro_t;
 
 void fibonacci(coro_t::push_type& yield)
 {
-	uint64_t a = 0;
-	uint64_t b = 1;
+    uint64_t a = 0;
+    uint64_t b = 1;
     while (true) {
         yield(b);
         auto tmp = a;
-		a = b;
-		b += tmp;
+        a = b;
+        b += tmp;
     }
 }
 

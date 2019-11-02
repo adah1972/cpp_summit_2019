@@ -55,12 +55,12 @@ uint64_t uint64_resumable::get()
 uint64_resumable fibonacci()
 {
     uint64_t a = 0;
-	uint64_t b = 1;
+    uint64_t b = 1;
     while (true) {
         co_yield b;
-		auto tmp = a;
-		a = b;
-		b += tmp;
+        auto tmp = a;
+        a = b;
+        b += tmp;
     }
 }
 
