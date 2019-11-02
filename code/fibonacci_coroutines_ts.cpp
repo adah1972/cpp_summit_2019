@@ -1,5 +1,5 @@
 // Clang: clang++ -std=c++17 -fcoroutines-ts fibonacci_coroutines_ts.cpp
-// MSVC: cl /std:c++17 /await /EHsc fibonacci_coroutines_ts.cpp
+// MSVC:  cl /std:c++17 /await /EHsc fibonacci_coroutines_ts.cpp
 
 #include <iostream>
 #include <experimental/coroutine>
