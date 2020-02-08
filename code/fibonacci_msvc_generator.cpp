@@ -1,4 +1,4 @@
-// MSVC:  cl /std:c++17 /await /EHsc fibonacci_msvc_generator.cpp
+// MSVC: cl /std:c++17 /await /EHsc fibonacci_msvc_generator.cpp
 
 #include <iostream>
 #include <stdint.h>
